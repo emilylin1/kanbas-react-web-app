@@ -1,20 +1,22 @@
 <html>
-<form>
+  <form>
     <h2>Emily Lin</h2>
     <label for="name">Name:*</label>
     <input type="text" id="name" />
 
     <label for="pronouns">Pronouns:</label>
     <select id="pronouns">
-        <option selected value="NONE">
-            None</option>
-    </select> <br /> <br />
+      <option selected value="NONE">None</option>
+    </select>
+    <br />
+    <br />
 
     <label for="title">Title:</label>
     <input type="text" id="title" />
 
     <h3>Contact</h3>
-    No registered services, you can add some on the <a href="#">settings</a> page.
+    No registered services, you can add some on the
+    <a href="#">settings</a> page.
 
     <h3>Biography</h3>
     Student <br />
@@ -22,25 +24,34 @@
 
     <h3>Links</h3>
     <ul>
-        <li><a href="#">YouTube</a></li>
+      <li><a href="#">YouTube</a></li>
     </ul>
     <table>
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>URL</th>
-            </tr>
-        </thead>
-        <tbody>
-            <td><input type="text" value="YouTube"/> &rarr; </td>
-            <td><input type="text" value="https://www.youtube.com"/> <a href="#">Remove</a></td>
-        </tbody>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td><input type="text" value="YouTube" /> &rarr;</td>
+        <td>
+          <input type="text" value="https://www.youtube.com" />
+          <a href="#">Remove</a>
+        </td>
+      </tbody>
     </table>
     <button type="button">Add another link</button> <br />
     <button type="button">Cancel</button>
-    <button type="submit" formaction="/Kanbas/Account/Profile/screen.html">Save Profile</button> <br />
-    <button type="submit" formaction="/Kanbas/Account/Profile/Edit/screen.html">Edit Profile</button>
-    <button type="submit" formaction="/Kanbas/Account/Profile/screen.html">Cancel Editing</button>
-</form>
-
+    <button type="submit" formaction="/Kanbas/Account/Profile/screen.html">
+      Save Profile
+    </button>
+    <br />
+    <button type="submit" formaction="/Kanbas/Account/Profile/Edit/screen.html">
+      Edit Profile
+    </button>
+    <button type="submit" formaction="/Kanbas/Account/Profile/screen.html">
+      Cancel Editing
+    </button>
+  </form>
 </html>
