@@ -1,0 +1,63 @@
+<html>
+<select>
+    <option selected value="SPEEDGRADER">SpeedGrader</option>
+</select>
+<hr>
+
+<h2>Assignment Name</h2>
+<form id="edit-assignment">
+    <input id="assignment-name" value="A1 - ENV + HTML" /><br /> <br />
+
+    <textarea>This is the assignment description.</textarea><br /> <br />
+
+    <label for="points">Points</label><br />
+    <input type="number" id="points" value="100" /><br /> <br />
+
+    <label for="assignment-group">Assignment Group</label><br />
+    <select id="assignment-group">
+        <option value="ASSIGNMENTS">ASSIGNMENTS</option>
+        <option value="QUIZZES">QUIZZES</option>
+        <option value="EXAMS">EXAMS</option>
+        <option value="PROJECT">PROJECT</option>
+    </select> <br /> <br />
+
+    <label for="display-grade-as">Display Grade as</label><br />
+    <select id="display-grade-as">
+        <option value="PERCENTAGE">Percentage</option>
+    </select> <br /> <br />
+
+    <label for="submission-type">Submission Type</label><br />
+    <select id="submission-type">
+        <option value="ONLINE">Online</option>
+    </select> <br /> <br />
+
+    <label>Online Entry Options</label> <br />
+    <input type="checkbox" value="TEXT-ENTRY" name="text-entry" id="chkbox-text" />
+    <label for="chkbox-text">Text Entry</label> <br />
+    <input type="checkbox" value="URL" name="url" id="chkbox-url" />
+    <label for="chkbox-url">Website URL</label> <br />
+    <input type="checkbox" value="MEDIA" name="media-recordings" id="chkbox-media" />
+    <label for="chkbox-scifi">Media Recordings</label> <br />
+    <input type="checkbox" value="ANNOTATION" name="student-annotation" id="chkbox-annotation" />
+    <label for="chkbox-annotation">Student Annotation</label> <br />
+    <input type="checkbox" value="FILE-UPLOADS" name="file-uploads" id="chkbox-file" />
+    <label for="chkbox-file">File Uploads</label> <br /> <br />
+
+    <label for="assign-to">Assign to</label><br />
+    <input type="text" id="assign-to" value="Everyone" /><br /> <br />
+
+    <label for="due">Due</label><br />
+    <input type="date" id="due" /><br /> <br />
+
+    <label for="available-from">Available from</label><br />
+    <input type="date" id="available-from" /><br /> <br />
+
+    <label for="until">Until</label><br />
+    <input type="date" id="until" /><br /> <br />
+
+    <button type="submit" formaction="/Kanbas/Courses/Assignments/screen.html">Cancel</button>
+    <button type="submit" formaction="/Kanbas/Courses/Assignments/screen.html">Save</button>
+
+</form>
+
+</html>
