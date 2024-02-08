@@ -41,6 +41,7 @@
     padding-top: 10px;
     justify-content: space-between;
     align-items: center;
+    margin-right: 10px;
 }
 
 .breadcrumb-left {
@@ -64,6 +65,7 @@
     align-items: center;
     justify-content: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .mobile-navbar button {
