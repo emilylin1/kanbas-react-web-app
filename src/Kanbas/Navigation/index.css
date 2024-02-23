@@ -4,7 +4,7 @@
     padding: 0px;
     margin: 0px;
     width: 80px;
-    height: auto;
+    height: 100%;
 }
 
 .wd-kanbas-navigation li {
@@ -18,21 +18,21 @@
     background-color: white;
 }
 
-.wd-kanbas-navigation li.wd-active a {
-    color: red;
-}
-
 .wd-kanbas-navigation a {
-    color: white;
+    color: red;
     text-decoration: none;
 }
 
-.wd-kanbas-navigation a i {
-    color: red;
-    font-size: 2em;
-    margin-bottom: 5px;
-} 
-
-.wd-kanbas-navigation a .fa-user-circle-o {
+.wd-kanbas-navigation a .fs-3account {
     color: lightgray;
+    font-size: calc(1.325rem + .9vw)!important;
+}
+
+.wd-kanbas-navigation li a[href*="Account"] {
+    color: white;
+}
+
+.wd-kanbas-navigation li:first-child {
+    padding: 0px;
+    margin: 0px;
 }

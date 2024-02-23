@@ -1,0 +1,20 @@
+.breadcrumb {
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    color: red;
+}
+
+.breadcrumb-left {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-right {
+    display: flex;
+    align-items: center;
+}
+
+.modules-list {
+    margin-top: 20px;
+}
