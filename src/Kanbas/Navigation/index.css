@@ -1,38 +1,38 @@
 .wd-kanbas-navigation {
-    background-color: black;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    width: 80px;
-    height: 100%;
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 80px;
+  height: 100%;
 }
 
 .wd-kanbas-navigation li {
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 0.8em;
-    text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
 }
 
 .wd-kanbas-navigation li.wd-active {
-    background-color: white;
+  background-color: white;
 }
 
 .wd-kanbas-navigation a {
-    color: red;
-    text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
 
 .wd-kanbas-navigation a .fs-3account {
-    color: lightgray;
-    font-size: calc(1.325rem + .9vw)!important;
+  color: lightgray;
+  font-size: calc(1.325rem + 0.9vw) !important;
 }
 
 .wd-kanbas-navigation li a[href*="Account"] {
-    color: white;
+  color: white;
 }
 
 .wd-kanbas-navigation li:first-child {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
