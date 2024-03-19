@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { courses } from "../../Kanbas/Database";
 import { Navigate, Route, Routes, useParams, useLocation, Link } from "react-router-dom";
 import { HiMiniBars3 } from "react-icons/hi2";
 import { FaAddressBook, FaBook, FaBullseye, FaCalendarAlt, FaChevronDown, FaClipboard, FaExclamationCircle, FaGlasses, FaHome, FaInbox, FaPlug, FaRegCircle, FaRegClock, FaRegComments, FaRegFile, FaRegFolder, FaRegQuestionCircle, FaRegUserCircle, FaRocket, FaShareSquare, FaSlidersH, FaTachometerAlt, FaTimes, FaTv, FaUsers } from "react-icons/fa";
@@ -10,7 +9,7 @@ import Assignments from "./Assignments";
 import Home from "./Home";
 import "./index.css";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
     const course = courses.find((course) => course._id === courseId);
     const pathName = useLocation().pathname.split("/").pop();
