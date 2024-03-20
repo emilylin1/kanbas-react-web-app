@@ -106,7 +106,7 @@ function ModuleList() {
                 {selectedModule._id === module._id && (
                   <ul className="list-group">
                     {module.lessons?.map(
-                      (lesson: { name: string }, index: React.Key) => (
+                      (lesson: any, index: number) => (
                         <li className="list-group-item" key={index}>
                           <FaEllipsisV className="me-2" />
                           {lesson.name}
