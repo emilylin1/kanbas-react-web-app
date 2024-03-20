@@ -33,6 +33,12 @@ function Dashboard({
         onChange={(e) => setCourse({ ...course, number: e.target.value })}
       />
       <input
+        value={course.semester}
+        className="form-control"
+        style={{ marginBottom: "10px" }}
+        onChange={(e) => setCourse({ ...course, semester: e.target.value })}
+      />
+      <input
         value={course.startDate}
         className="form-control"
         type="date"
