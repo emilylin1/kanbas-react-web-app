@@ -18,7 +18,7 @@ function Dashboard({
   return (
     <div className="p-4">
       <h1>Dashboard</h1> <hr />
-      <h2 style={{ marginTop: "10px" }}>Published Courses (3)</h2> <hr />
+      <h2 style={{ marginTop: "10px" }}>Published Courses ({courses.length})</h2> <hr />
       <h5>Course</h5>
       <input
         value={course.name}
